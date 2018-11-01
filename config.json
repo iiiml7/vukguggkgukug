@@ -1,6 +1,5 @@
 {
-  "discord": {
-    "token": (process.env.BOT_TOKEN),
+  "discord": 
     "prefix": "m!"
   },
   "twitter": {
