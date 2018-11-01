@@ -1,0 +1,15 @@
+{
+  "discord": {
+    "token": "DISCORD LOGIN TOKEN",
+    "prefix": "/./"
+  },
+  "twitter": {
+    "consumer_key": "",
+    "consumer_secret": "",
+    "access_token": "",
+    "access_token_secret": ""
+  },
+  "strings": {
+    "github": "https://github.com/MercyDoesCode/mercy-selfbot"
+  }
+}
