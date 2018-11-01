@@ -1,7 +1,7 @@
 {
   "discord": {
-    "token": "DISCORD LOGIN TOKEN",
-    "prefix": "/./"
+    "token": "process.env.BOT_TOKEN",
+    "prefix": "m!"
   },
   "twitter": {
     "consumer_key": "",
