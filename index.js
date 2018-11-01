@@ -6,7 +6,7 @@ const fs = require('fs');
 const config = require('./config.json');
 
 const log = require('./functions/logger');
-
+const token = (process.env.BOT_TOKEN);
 let start = Date.now();
 
 fs.readdir('./commands/', (error, files) => {
@@ -38,7 +38,7 @@ fs.readdir('./commands/', (error, files) => {
           if (files.indexOf(file) === files.length - 1) {
 
             log('Loaded ' + files.length + ' events! (' + (Date.now() - start) + ' ms)');
-            bot.login(config.discord.token);
+            bot.login(process.env.BOT_TOKEN);
             bot.config = config;
           }
         });
